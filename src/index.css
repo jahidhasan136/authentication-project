@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+  @apply hover:bg-red-500 px-3 py-1 rounded
+}
+
+.btn-outline{
+  @apply border border-red-500 
+}
